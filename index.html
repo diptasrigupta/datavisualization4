@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Vis & Society Assignment 3</title>
+	<link rel="stylesheet" href="https://vis-society.github.io/assignments/report.css" />
+</head>
+
+<body>
+	<header>
+		<h1>
+			<small>Assignment 4</small>
+			Persuasive or Deceptive Visualization?
+		</h1>
+
+		<p>
+			<strong>Diptasri Gupta</strong> — <em>diptasri@mit.edu</em>
+		</p>
+	</header>
+
+	<main>
+    <h2>Proposition: Higher availability of abortion clinics increases frequency with which individuals get abortions</h2>
+
+		<section>
+      <h3>FOR the Proposition</h3>
+
+      <figure>
+				<img src="pro_stance_vis.png" alt="" />
+				<figcaption>
+					Relationship between clinic accessibility and abortion rates.
+				</figcaption>
+			</figure>
+
+			<p>
+				Design Decisions and Rationale:
+			</p>
+
+			<ul>
+				<li>Not removing any outliers:  1.5. Since upon initial inspection, it didn't seem like any outliers were significantly affecting the trend line, I decided to not transform 
+					the data in any way. I think this worked well as a clear pro-stance trend emerges and the need to not include any transformations enhances perceived trustworthiness of the graphic.
+				</li>
+				<li>Including a trendline: 1. Including a bright red trendline drives home the positive relationship between abortion rates per 100 women and availability of abortion clinics and 
+					makes the trend a lot more obvious to spot upon first glance, enhancing its persuasiveness.
+				</li>
+				<li>Unbiased Title: 2. The title objectively states the relationship we are exploring without making any observations on the graph itself. I was considering making the title 
+					state the positive correlation between the 2 variables but I decided not to, as the trendline speaks for itself and having the graphic itself include no judgements makes it seem more 
+					objective to the reader.
+				</li>
+				<li>Making all data points visible: 2. Including the trendline without the datapoints would call into question how many data points there are, and whether outliers are skewing results. Including 
+					all the datapoints increases the transparency of the visualization, and the datapoints don't make the graphic more confusing and harder to read. 
+				</li>
+			</ul>
+    </section>
+
+    <section>
+      <h3>AGAINST the Proposition</h3>
+
+      <figure>
+				<img src="anti_stance_vis_3.png" alt="" />
+				<figcaption>
+					Relationship between clinic accessibility and average number of abortions
+				</figcaption>
+			</figure>
+
+			<p>
+				Design Decisions and Rationale:
+			</p>
+
+			<ul>
+				<li>Using average numbers of abortions, and using raw numbers instead of abortion rates: -1.5. This is deceptive as states have vastly different populations (therefore numbers of abortions), and binning different states together
+					is quite deceptive as a populous state affects the average more than multiple less populous states. I chose to do this as it is easier to obscure misleading information under the guise of being objective,
+					because 'average number of abortions' seems like an objective metric to the reader. 
+				<li>Filtering outliers: - 2. While filtering outliers is usually good practice, filtering out outliers by number of abortions excluded some important states like California 
+					that were likely to be outliers due to their population. While there was still no correlation before the filtering, I chose to do this as it made the bars a lot closer together, 
+				reinforcing the notion that there is no correlation. </li>
+				<li>Binning states by clinic availability: -1. Each bin has a different number of states (for example, there are more states in the 76% - 100% category than in any other category),
+						therefore some bins represent the average of far more states than others. I decided on this purposefully, as it makes the analysis more murky without outwardly seeming so.</li>
+				<li>Axis title: -0.5. While the title itself simply states the lack of correlation found in the (albeit deceptive) graph, having a leading title like this definitely guides
+					the viewer to a conclusion. I chose to include this to drive home the notion that the proposition doesn't hold true upon first glance.</li>
+				<li>Color gradient: 1. The color of the bar corresponds to its height. Alternatively, I was considering making each bar a different color, but I 
+					decided that using a gradient reinforced that there was no correlation because the user would see a jumble of colors and no clear gradient. I think it worked well
+					but wasn't essential to the persuasiveness of the graphic, as it is quite clear on its own. 
+				</li>	
+			</ul>
+    </section>
+
+    <section>
+      <h2>Final Reflection</h2>
+
+      <p>
+		I think both visualizations were a success and both are persusive for and against the stance respectively without deception being immediately obvious. I 
+		was purposely trying to make one of the visualizations more deceptive than the other to distort trends that were more apparent in the data, and I learned 
+		that creating deceptive visualizations that have the guise of transparency is difficult and is an art in and of itself. I think that using methods such as removing 
+		outliers without disclosing them can be a powerful method to eliminate or reverse trends seen in data, and removal of outliers should be used with great discretion. 
+		At times, it was difficult to bin and modify the data so trends emerged and were obscured, and I explored several different propositions (most unsuccessfully). 
+	  </p>
+	  <p>
+	Overall, I think the bounds between acceptable persuasive choices and misleading ones can be drawn based on the intention behind the visualization and the potential impact on the audience. 
+	Acceptable persuasion aids understanding without distorting facts, while misleading tactics distort the viewer's perception, potentially leading to incorrect conclusions.
+	Factors such as truncating axes, excluding relevant data, or using emotive language can be misleading.
+	The distinction often lies in whether the design serves to inform (with any analysis written after the graphic has been created) or to deceive for the benefit of a particular argument.
+	</p>
+    </section>
+	</main>
+</body>
+</html>
